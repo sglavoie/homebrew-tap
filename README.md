@@ -10,6 +10,7 @@ brew install --cask sglavoie/tap/<cask>
 | --- | --- |
 | `deps-merger` | [deps-merger](https://github.com/sglavoie/deps-merger): a CLI that merges safe Dependabot pull requests across your repositories (installs `gh`) |
 | `launchgrid` | [LaunchGrid](https://launchgrid.sglavoie.com/): a full-screen app grid for macOS 14+ |
+| `muse` | [muse](https://github.com/sglavoie/muse): a keyboard-driven terminal music player for your local library (installs `mpv` and `exiftool`; install as `sglavoie/tap/muse`, since Homebrew has an unrelated `muse` cask) |
 | `sloppy-paste` | [Sloppy Paste](https://github.com/sglavoie/AI-Sloppy-Paste): searchable text snippets with tags and placeholder forms for macOS 15+ (includes `sloppyctl`) |
 
 `brew upgrade --cask <cask>` installs new releases and `brew uninstall --cask <cask>` removes one.
@@ -23,4 +24,5 @@ Each cask is updated by its app's release process:
 | --- | --- |
 | `deps-merger` | GoReleaser in the [deps-merger](https://github.com/sglavoie/deps-merger) repository |
 | `launchgrid` | `just publish` in the [LaunchGrid](https://github.com/sglavoie/LaunchGrid) repository |
+| `muse` | GoReleaser in the [muse](https://github.com/sglavoie/muse) repository |
 | `sloppy-paste` | `just publish` in the [Sloppy Paste](https://github.com/sglavoie/AI-Sloppy-Paste) repository |
