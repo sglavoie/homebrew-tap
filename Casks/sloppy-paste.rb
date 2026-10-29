@@ -1,6 +1,6 @@
 cask "sloppy-paste" do
-  version "0.1.0"
-  sha256 "6596321a85cbe047b01c2586eac0d35ac9d16efc9a4c3cfe1c403f422883f8ec"
+  version "0.2.0"
+  sha256 "7a62d4183dcabe2a0cf3641da0a90700c4c6f4fb79624f129701a98b8aeff1a5"
 
   url "https://github.com/sglavoie/AI-Sloppy-Paste/releases/download/v#{version}/SloppyPaste.zip"
   name "Sloppy Paste"
