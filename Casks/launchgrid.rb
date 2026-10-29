@@ -1,6 +1,6 @@
 cask "launchgrid" do
-  version "1.0.0"
-  sha256 "e80c1d42dcd2847c69f7945664928cc638b2f461aded0c42299f035d81d986df"
+  version "1.1.0"
+  sha256 "8f694858386f586ebd97def7ca6e45c60547b5783ec48d3b0968e0e63697f403"
 
   url "https://github.com/sglavoie/LaunchGrid/releases/download/v#{version}/LaunchGrid.zip"
   name "LaunchGrid"
