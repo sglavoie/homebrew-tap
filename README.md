@@ -8,7 +8,7 @@ brew install --cask sglavoie/tap/<cask>
 
 | Cask | App |
 | --- | --- |
-| `deps-merger` | [deps-merger](https://github.com/sglavoie/deps-merger): a CLI that merges safe Dependabot pull requests across your repositories (installs `gh`) |
+| `deps-handler` | [deps-handler](https://github.com/sglavoie/deps-handler): a CLI that merges safe Dependabot pull requests across your repositories (installs `gh`) |
 | `docket` | [Docket](https://github.com/sglavoie/docket): a local-first, keyboard-driven task manager for the terminal (also installs the short alias `dkt`) |
 | `launchgrid` | [LaunchGrid](https://launchgrid.sglavoie.com/): a full-screen app grid for macOS 14+ |
 | `muse` | [muse](https://github.com/sglavoie/muse): a keyboard-driven terminal music player for your local library (installs `mpv` and `exiftool`; install as `sglavoie/tap/muse`, since Homebrew has an unrelated `muse` cask) |
@@ -23,7 +23,7 @@ Each cask is updated by its app's release process:
 
 | Cask | Updated by |
 | --- | --- |
-| `deps-merger` | GoReleaser in the [deps-merger](https://github.com/sglavoie/deps-merger) repository |
+| `deps-handler` | GoReleaser in the [deps-handler](https://github.com/sglavoie/deps-handler) repository |
 | `docket` | GoReleaser in the [Docket](https://github.com/sglavoie/docket) repository |
 | `launchgrid` | `just publish` in the [LaunchGrid](https://github.com/sglavoie/LaunchGrid) repository |
 | `muse` | GoReleaser in the [muse](https://github.com/sglavoie/muse) repository |
