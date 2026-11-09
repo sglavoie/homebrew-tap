@@ -3,25 +3,25 @@ cask "deps-handler" do
   # Short command alias for deps-handler.
   binary "deps-handler", target: "dh"
 
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
-      sha256 "c309f9d6f21f7dd6482abc534f40c08b03db2121334bf942ce06180961b28cc4"
+      sha256 "80dfcbfe06c15e8bb45bb1fad953d9b0b24794f1fb41a2e069bbbac1c324de5f"
       url "https://github.com/sglavoie/deps-handler/releases/download/v#{version}/deps-handler_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "10997db96f69ae72db35cf740ee099f8e2d550e76dfae7943061217b38b53b00"
+      sha256 "5aa5840420e59a90612df1cde62ea0c6566b6e612e4b4440de5b1990e5447ac2"
       url "https://github.com/sglavoie/deps-handler/releases/download/v#{version}/deps-handler_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "febe980802298711ddb20cdd77eaa09c7e6b9c20630189faae1dcdb3e223829a"
+      sha256 "d8a4a7e4539014e830914bff5bf4a29bc3d643599dd40a28b96bc2d1165f9478"
       url "https://github.com/sglavoie/deps-handler/releases/download/v#{version}/deps-handler_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "049dcd0fb8079cedf4aec20af93922c76a191715e1c9cee580cbb43be86d8e86"
+      sha256 "f9034f8baba9135667aa9685830eef14b959127b41581a0df81651c44d2e27ee"
       url "https://github.com/sglavoie/deps-handler/releases/download/v#{version}/deps-handler_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -48,5 +48,5 @@ cask "deps-handler" do
     end
   end
 
-  # No zap stanza required
+  zap :not_required
 end
